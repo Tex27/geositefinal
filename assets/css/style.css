@@ -1958,6 +1958,15 @@ body.dark-theme ion-icon {
 		0 0 102px #0fa,
 		0 0 151px #0fa;
 }
+
+body.dark-theme .titleglow1 {
+	border-color: var(--oxford-blue);
+}
+
+body.dark-theme .titleglow {
+	border-color: var(--oxford-blue);
+}
+
 #map2 {
 	top: 20px;
 }
