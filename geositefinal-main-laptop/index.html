@@ -136,6 +136,8 @@ body.dark-theme .mapboxgl-popup-content {
 .titleglow-selected, .titleglow1-selected {
       color: rgb(0, 255, 170); /* Change this to the desired highlight color */
     }
+
+	
 </style>
 
 <body id="top">
@@ -1159,7 +1161,7 @@ body.dark-theme .mapboxgl-popup-content {
 			.setPopup(
 				new mapboxgl.Popup({ offset: 25 }) // add popups
 				.setHTML(
-					`<h3>${feature.properties.title}</h3><p><button onclick="openGoogleMaps(${JSON.stringify(feature.geometry.coordinates)})">Abrir no Google Maps</button></p>`
+					`<h3>${feature.properties.title}</h3><p><button class="buttoncolor" onclick="openGoogleMaps(${JSON.stringify(feature.geometry.coordinates)})">Abrir no Google Maps</button></p>`
 				)
   )
   .addTo(map1);
