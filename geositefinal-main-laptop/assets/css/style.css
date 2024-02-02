@@ -1918,11 +1918,14 @@ body.dark-theme ion-icon {
 
 .titleglow {
 	color: #ff0000;
+	border: 5px solid white;
+	border-radius: 20%;
+	border-style: solid;
 	font-size: 50px;
 	position: relative;
 	display: inline;
 	right: -600px;
-	bottom: -94px;
+	bottom: -90px;
 	text-shadow:
 		0 0 7px #fff,
 		0 0 10px #fff,
@@ -1937,6 +1940,9 @@ body.dark-theme ion-icon {
 
 .titleglow1 {
 	position: relative;
+	border: 5px solid white;
+	border-radius: 20%;
+	border-style: solid;
 	font-size: 50px;
 	bottom: -18px;
 	left: 50px;

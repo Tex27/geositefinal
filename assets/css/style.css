@@ -1920,6 +1920,9 @@ body.dark-theme ion-icon {
 	color: #ff0000;
 	font-size: 50px;
 	position: relative;
+	border: 5px solid white;
+	border-radius: 20%;
+	border-style: solid;
 	display: inline;
 	right: -600px;
 	bottom: -94px;
@@ -1939,6 +1942,9 @@ body.dark-theme ion-icon {
 	position: relative;
 	font-size: 50px;
 	bottom: -18px;
+	border: 5px solid white;
+	border-radius: 20%;
+	border-style: solid;
 	left: 50px;
 	display: inline;
 	color: #48ff00;
